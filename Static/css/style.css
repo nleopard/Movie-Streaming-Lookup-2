@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.container h1 {
+    font-weight: normal;
+    color: black;
+    text-decoration: underline;
+}
+
+img {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    opacity: 0.75;
+    transition: 0.25s ease-in-out;
+}
+
+.top-buffer {
+    margin-top: 30px;
+}
+
+button {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: lightblue;
+    background-color: lightslategray;
+    border-radius: 20px;
+    outline: none;
+}
+
+button:hover {
+    background-color: lightsteelblue;
+    color: whitesmoke
+}
+
+.btn-success {
+    background-color: lightslategray;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+}
+
+.btn-success:hover {
+    background-color: rgb(8, 76, 145);
+}
+
+div.movieText {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#chartPoster {
+    position: relative;
+    margin: auto;
+    background-image: url();
+}
